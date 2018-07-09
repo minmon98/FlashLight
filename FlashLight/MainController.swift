@@ -46,6 +46,11 @@ class MainController: UIViewController {
     
     @IBAction func btnOK_Pressed(_ sender: Any) {
         saveData()
+        
+        let destination = self.storyboard?.instantiateViewController(withIdentifier: "MainLight") as! FlashLight
+        destination.background = getColor()
+        
+        self.present(destination, animated: true, completion: nil)        
     }
     
     

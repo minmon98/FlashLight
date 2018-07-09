@@ -220,7 +220,59 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-558" y="76"/>
+            <point key="canvasLocation" x="-1322" y="70"/>
+        </scene>
+        <!--Flash Light-->
+        <scene sceneID="9Jz-NJ-Nr6">
+            <objects>
+                <viewController storyboardIdentifier="MainLight" id="RqA-Wd-od0" customClass="FlashLight" customModule="FlashLight" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F0g-1q-RiR"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ld-Q8-Zqc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QDn-46-ydx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUw-wT-5Dd">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fch-ZO-PVy">
+                                        <rect key="frame" x="0.0" y="24" width="375" height="44"/>
+                                        <items>
+                                            <navigationItem id="qzo-DW-uPE">
+                                                <barButtonItem key="leftBarButtonItem" title="BACK" id="TUZ-bl-4o7">
+                                                    <connections>
+                                                        <segue destination="BYZ-38-t0r" kind="show" id="7gw-6Y-5LY"/>
+                                                    </connections>
+                                                </barButtonItem>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Fch-ZO-PVy" firstAttribute="leading" secondItem="QUw-wT-5Dd" secondAttribute="leading" id="CHx-KX-mRC"/>
+                                    <constraint firstItem="Fch-ZO-PVy" firstAttribute="top" secondItem="QUw-wT-5Dd" secondAttribute="top" constant="24" id="fhB-pj-h70"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fch-ZO-PVy" secondAttribute="trailing" id="td6-S3-m30"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QUw-wT-5Dd" firstAttribute="top" secondItem="F0g-1q-RiR" secondAttribute="bottom" id="UfQ-lq-b8y"/>
+                            <constraint firstAttribute="trailing" secondItem="QUw-wT-5Dd" secondAttribute="trailing" id="fUT-JV-eTU"/>
+                            <constraint firstItem="7ld-Q8-Zqc" firstAttribute="top" secondItem="QUw-wT-5Dd" secondAttribute="bottom" id="hoS-sb-1jB"/>
+                            <constraint firstItem="QUw-wT-5Dd" firstAttribute="leading" secondItem="QDn-46-ydx" secondAttribute="leading" id="k3a-gh-6bW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgBackground" destination="QUw-wT-5Dd" id="PkR-RU-GLg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQD-TB-dnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-393" y="70"/>
         </scene>
     </scenes>
 </document>

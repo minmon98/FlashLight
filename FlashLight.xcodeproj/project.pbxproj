@@ -14,6 +14,7 @@
 		255DE66820F32D140052D45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255DE66620F32D140052D45A /* LaunchScreen.storyboard */; };
 		255DE67320F32D150052D45A /* FlashLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DE67220F32D150052D45A /* FlashLightTests.swift */; };
 		255DE67E20F32D150052D45A /* FlashLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DE67D20F32D150052D45A /* FlashLightUITests.swift */; };
+		256DC09820F371CB00EA4523 /* FlashLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256DC09720F371CB00EA4523 /* FlashLight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		255DE67920F32D150052D45A /* FlashLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		255DE67D20F32D150052D45A /* FlashLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLightUITests.swift; sourceTree = "<group>"; };
 		255DE67F20F32D150052D45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256DC09720F371CB00EA4523 /* FlashLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				255DE66420F32D140052D45A /* Assets.xcassets */,
 				255DE66620F32D140052D45A /* LaunchScreen.storyboard */,
 				255DE66920F32D140052D45A /* Info.plist */,
+				256DC09720F371CB00EA4523 /* FlashLight.swift */,
 			);
 			path = FlashLight;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				255DE66020F32D140052D45A /* MainController.swift in Sources */,
+				256DC09820F371CB00EA4523 /* FlashLight.swift in Sources */,
 				255DE65E20F32D140052D45A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 				255DE68420F32D150052D45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		255DE68520F32D150052D45A /* Build configuration list for PBXNativeTarget "FlashLightTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				255DE68720F32D150052D45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		255DE68820F32D150052D45A /* Build configuration list for PBXNativeTarget "FlashLightUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				255DE68A20F32D150052D45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
